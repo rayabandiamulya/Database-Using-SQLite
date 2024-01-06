@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="90dp"
+        android:layout_y="64dp"
+        android:text="Student Details"
+        android:textStyle="bold"
+        android:textColor="@color/pink"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="45dp"
+        android:layout_y="162dp"
+        android:textColor="@color/pink"
+        android:text="Enter Rollno:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Rollno"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="178dp"
+        android:layout_y="152dp"
+        android:hint="Roll No"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="46dp"
+        android:layout_y="228dp"
+        android:text="Enter Name:"
+        android:textColor="@color/pink"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="179dp"
+        android:layout_y="219dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="47dp"
+        android:layout_y="293dp"
+        android:text="Enter Marks:"
+        android:textColor="@color/pink"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Marks"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="177dp"
+        android:layout_y="283dp"
+        android:autofillHints=""
+        android:hint="Marks"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Insert"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="34dp"
+        android:layout_y="393dp"
+        android:text="Insert"
+        android:textSize="30sp"
+        android:backgroundTint="@color/pink"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/Delete"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="218dp"
+        android:layout_y="391dp"
+        android:text="Delete"
+        android:textSize="30sp"
+        android:backgroundTint="@color/pink"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/Update"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="33dp"
+        android:layout_y="491dp"
+        android:text="Update"
+        android:textSize="30sp"
+        android:backgroundTint="@color/pink"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/View"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="219dp"
+        android:layout_y="492dp"
+        android:text="View"
+        android:textSize="30sp"
+        android:backgroundTint="@color/pink"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/ViewAll"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_x="107dp"
+        android:layout_y="591dp"
+        android:text="View All"
+        android:textSize="30sp"
+        android:backgroundTint="@color/pink"
+        android:textColor="@color/white"/>
+
+</AbsoluteLayout>
